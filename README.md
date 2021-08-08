@@ -6,6 +6,7 @@ For Pseudocode, directly goto TreeSearchPOMDP.py
 I've borrowed RS simulator from 'github.com/pemami4911/POMDPy' library, while code from 'github.com/namoshizun/PyPOMDP' is used to save my generated RandomPOMDPs in the POMDP format.
 -----------------------------------
 Description:
+
 For RandomPODMP Env: SamplingSearchPOMDP.py (It generates, solves and outputs a fixed RandomPOMDP for later use/comparision)
 
 For RockSample Env: testRockSample.py (It uses SSRockSample.py which implements Tree 'Node' class, 'Expand' & 'Cluster' method; latter is used only for memory managment, as explained above). RS is the most important environment for comparing different algorithm IMHO.
